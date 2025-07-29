@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptBuildIssueDemo", "TypeScriptBuildIssueDemo\TypeScriptBuildIssueDemo.csproj", "{6DB1C0EB-DBEE-4E71-BA13-FCF8398D80CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A997E9D-C507-428A-AC75-A2102C6AC7C6} = {1A997E9D-C507-428A-AC75-A2102C6AC7C6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptBuildIssueDemo.Library", "TypeScriptBuildIssueDemo.Library\TypeScriptBuildIssueDemo.Library.csproj", "{1A997E9D-C507-428A-AC75-A2102C6AC7C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB1C0EB-DBEE-4E71-BA13-FCF8398D80CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB1C0EB-DBEE-4E71-BA13-FCF8398D80CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB1C0EB-DBEE-4E71-BA13-FCF8398D80CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB1C0EB-DBEE-4E71-BA13-FCF8398D80CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A997E9D-C507-428A-AC75-A2102C6AC7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A997E9D-C507-428A-AC75-A2102C6AC7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A997E9D-C507-428A-AC75-A2102C6AC7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A997E9D-C507-428A-AC75-A2102C6AC7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FB085DA-4CB9-412D-B708-AC9C75F87E91}
+	EndGlobalSection
+EndGlobal
